@@ -1,0 +1,28 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600&family=Work+Sans:wght@700&display=swap");
+  font-family: "Work Sans", sans-serif;
+}
+/* ------------
+ header style 
+ -------------- */
+ header{
+    background: rgba(255, 144, 14, 0.1);
+ }
+.nav-container,
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
