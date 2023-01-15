@@ -1,11 +1,9 @@
 body {
-  @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;600&family=Work+Sans:wght@700&display=swap");
-  font-family: "Work Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 /* ------------
- header style 
+ header styles 
  -------------- */
 header {
   background: rgba(255, 144, 14, 0.1);
@@ -15,8 +13,9 @@ header {
 .nav-container,
 ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin: 0px 40px 0px 50px;
 }
 ul {
   list-style-type: none;
@@ -27,7 +26,7 @@ ul {
 }
 .nav-title {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   color: #131313;
 }
 
@@ -51,9 +50,9 @@ ul {
   margin: 30px 0px 0px 70px;
   width: 100%;
 }
-.button-div{
+.button-div {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   margin: 30px 0px 0px 100px;
 }
 .button > button {
@@ -72,7 +71,96 @@ ul {
 }
 .img {
   width: 100%;
-  /* height: 100%; */
-} 
+}
+/* -------------
+  main styles
+ --------------- */
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(2, 342px);
+  gap: 15px;
+}
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin: 120px 0px 0px 30px;
+}
+.image {
+  width: 342px;
+  height: 342px;
+}
+.list-details {
+  border: 1px solid black;
+  width: 500px;
+  height: 250px;
+}
 
+/*---------------
+ Experience style
+ ----------------- */
+.experience-container {
+  background-image: url("../images/architect.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 80px;
+}
+.top-contant {
+  margin-left: 40px;
+  width: 400px;
+  height: 250px;
+}
 
+.top-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.top-description {
+  color: #727272;
+}
+.contant {
+  width: 400px;
+  height: 120px;
+  margin-left: 40px;
+  padding: 0px 0px 10px 20px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  color: #131313;
+}
+.description {
+  width: 400px;
+  height: 77px;
+  color: #727272;
+}
+.exp-button {
+  display: grid;
+  width: 300px;
+  height: 150px;
+  margin-left: 500px;
+  background: #ff900e;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
+.text-size {
+  font-weight: 700;
+  font-size: 65px;
+}
+.exp {
+  font-weight: 500;
+  font-size: 25px;
+}
+/*---------------- 
+Some Facts styles
+------------------*/
+.sf-container{
+  display: flex;
+  
+ 
+}
