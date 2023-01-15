@@ -233,24 +233,37 @@ img {
   font-size: 20px;
   margin: 80px 0px 0px 100px;
 }
- .banner, .list-container, .experience-container, .sponsors-container, .icon-info, .icons-container, .logo{
-  display: none;
- }
 
 /*-----------------
  media query style 
  ------------------*/
- @media only screen and (max-width:576px) {
+ @media only screen and (max-width: 576px) {
    header{
     background-color: white;
    }
    .nav-container{
+    display: flex;
+    flex-direction: column;
+   }
+   .banner-img{
+    margin: 0px;
+    width: 100%;
+   }
+   .list-container{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    text-align: center;
    }
-   .banneer-img{
-   padding-right: 100px;
+   .image-list{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
    }
+   .list-details{
+    position: sticky;
+    margin-top: 80px;
+    height: 90%;
+    width: 90%;
+   }
+   
 
  }
