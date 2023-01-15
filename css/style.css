@@ -1,6 +1,7 @@
-body {
+*{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 /* ------------
  header styles 
@@ -224,11 +225,32 @@ img {
   justify-content: space-around;
   filter: grayscale(100%);
 }
-.end-div{
-  background-color: salmon;
+.end-div {
+  background-color: rgb(255, 203, 197);
   text-align: center;
   width: 80%;
   height: 30px;
   font-size: 20px;
   margin: 80px 0px 0px 100px;
 }
+ .banner, .list-container, .experience-container, .sponsors-container, .icon-info, .icons-container, .logo{
+  display: none;
+ }
+
+/*-----------------
+ media query style 
+ ------------------*/
+ @media only screen and (max-width:576px) {
+   header{
+    background-color: white;
+   }
+   .nav-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+   }
+   .banneer-img{
+   padding-right: 100px;
+   }
+
+ }
