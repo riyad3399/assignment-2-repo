@@ -91,14 +91,42 @@ ul {
   height: 342px;
 }
 .list-details {
-  border: 1px solid black;
-  width: 500px;
-  height: 250px;
+  width: 450px;
+  height: 280px;
+  position: relative;
+  left: 410px;
+  top: 350px;
 }
-
+.dark3 {
+  color: #727272;
+  font-weight: 500;
+  font-size: 45px;
+}
+.black {
+  color: #131313;
+  font-weight: 700;
+  font-size: 45px;
+}
+.orange {
+  color: #ff900e;
+  font-weight: 700;
+  font-size: 45px;
+}
+.list-description {
+  color: #727272;
+}
+.list-button {
+  padding: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #ff900e;
+  border-radius: 8px;
+  border: none;
+}
 /*---------------
  Experience style
- ----------------- */
+ -----------------*/
 .experience-container {
   background-image: url("../images/architect.png");
   background-repeat: no-repeat;
@@ -188,11 +216,19 @@ img {
   color: #131313;
   margin: 120px 0px 50px 0px;
 }
-.sponsors-discription{
+.sponsors-discription {
   color: #727272;
 }
 .logo {
   display: flex;
   justify-content: space-around;
   filter: grayscale(100%);
+}
+.end-div{
+  background-color: salmon;
+  text-align: center;
+  width: 80%;
+  height: 30px;
+  font-size: 20px;
+  margin: 80px 0px 0px 100px;
 }
