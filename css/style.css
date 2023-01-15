@@ -24,7 +24,7 @@ ul {
   font-size: 18px;
   color: #424242;
 }
-.nav-title {
+.title-size {
   font-weight: 700;
   font-size: 40px;
   color: #131313;
@@ -110,11 +110,6 @@ ul {
   width: 400px;
   height: 250px;
 }
-
-.top-title {
-  font-weight: 700;
-  font-size: 45px;
-}
 .top-description {
   color: #727272;
 }
@@ -139,10 +134,9 @@ ul {
   color: #727272;
 }
 .exp-button {
-  display: grid;
   width: 300px;
   height: 150px;
-  margin-left: 500px;
+  margin-left: 480px;
   background: #ff900e;
   color: #ffffff;
   border-radius: 8px;
@@ -159,8 +153,46 @@ ul {
 /*---------------- 
 Some Facts styles
 ------------------*/
-.sf-container{
+.icon-info {
+  margin: 100px 0px 0px 80px;
+}
+.icon-description {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  width: 420px;
+  height: 40px;
+}
+.icons-container {
   display: flex;
-  
- 
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 70px;
+}
+.icon {
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  width: 142px;
+  height: 142px;
+  margin-top: 70px;
+}
+.icon,
+img {
+  margin-top: 10px;
+}
+/*--------------
+ footer style 
+ --------------- */
+.sponsors-container {
+  text-align: center;
+  color: #131313;
+  margin: 120px 0px 50px 0px;
+}
+.sponsors-discription{
+  color: #727272;
+}
+.logo {
+  display: flex;
+  justify-content: space-around;
+  filter: grayscale(100%);
 }
